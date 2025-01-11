@@ -315,13 +315,56 @@ nav{
 input{
     width: 100%;
     height: 60px;
-    /* margin: 32px 132px; */
     margin-top: 40px;
-    /* margin-bottom: px; */
     border: none;
 }
 
 input::placeholder {
     text-align: center;
     font-size: 20px;
+}
+
+/* subscribe section style */
+.subscribe{
+    padding: 80px 265px;
+    background-color: rgba(198, 228, 214, 1)
+}
+
+.subscribe-title{
+    color: rgba(14, 14, 14, 1);
+    font-size: 40px;
+    line-height: 24px;
+    font-weight: bold;
+}
+.subscribe-desc{
+    color: rgba(14, 14, 14, 0.7);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+.text-align{
+    text-align: center;
+}
+
+.subscribe-input-btn input{
+    border-radius: 10px 0 0 10px;
+    width: 70%;
+}
+
+.extra-effect-2{
+    border-radius: 0 16px 16px 0;
+    border: none;
+    background-color: rgba(0, 106, 80, 1);
+    padding: 17px 34px;
+    height: 60px;
+    width: 150px;
+    color: white;
+
+}
+
+.sub-desc-2{
+    color: rgba(14, 14, 14, 0.7);
+}
+.subscribe-input-btn input::placeholder{
+    text-align: left;
 }
