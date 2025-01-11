@@ -24,6 +24,7 @@ nav{
     border-radius: 8px;
     color: rgba(0, 106, 80, 1);
     font-size: 15px;
+    border: 1px solid rgba(0, 106, 80, 1);
 }
 
 .btn-all{
@@ -327,7 +328,9 @@ input::placeholder {
 /* subscribe section style */
 .subscribe{
     padding: 80px 265px;
-    background-color: rgba(198, 228, 214, 1)
+    background-color: rgba(198, 228, 214, 1); 
+    border-radius: 24px;
+    
 }
 
 .subscribe-title{
@@ -373,4 +376,13 @@ input::placeholder {
 
 .footer-images{
     display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+footer{
+    margin-top: 50px;
+    padding: 50px;
+
 }
