@@ -27,6 +27,12 @@ nav{
     border: 1px solid rgba(0, 106, 80, 1);
 }
 
+.btn-primary:hover, .btn-all:hover, .secondary-btn button:hover, #btn-1:hover, #btn-2:hover, #btn-3:hover, .extra-effect-2:hover, .donate-box .donate-amount:hover{
+    background-color: gray;
+    cursor: pointer;
+    
+}
+
 .btn-all{
     padding: 17px 34px;
     background-color: rgba(0, 106, 80, 1);
